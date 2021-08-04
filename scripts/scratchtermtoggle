@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+id=$(xdotool search --class floatingTerminal)
+
+if [ "$id" != "" ]
+ then
+  bspc node "$id" --flag hidden -f
+ else
+  alacritty --class floatingTerminal,floatingTerminal 
+  bspc rule -a floatingTerminal sticky=on state=floating hidden=on
+  bspc node "$(xdotool search --class floatingTerminal)" --flag hidden -f
+fi
+
