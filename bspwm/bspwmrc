@@ -2,7 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 bash ~/.config/polybar/launch.sh --hack & 
-/bin/bash /home/arch/.screenlayout/1920x1080.sh &
+/bin/bash /home/arch/.config/scripts/1920x1080.sh &
 setxkbmap -option caps:escape &
 alacritty --class floatingTerminal,floatingTerminal &
 bspc rule -a floatingTerminal sticky=on state=floating hidden=on
