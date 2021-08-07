@@ -1,9 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S --noconfirm bspwm virtualbox-guest-utils git rxvt-unicode terminator arandr rofi pulseaudio pavucontrol lightdm ligthdm-gtk-greeter lightdm-gtk-greeter-settings xdotool flameshot firefox sxkhd man htop
-mkdir $HOME/.config
-cd $HOME/.config
-git clone "https://github.com/ivanivankovic/archsetup" .
+sudo pacman -S --noconfirm bspwm virtualbox-guest-utils git rxvt-unicode terminator arandr rofi pulseaudio pavucontrol lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings xdotool flameshot firefox sxhkd man htop
 cd /opt ; sudo git clone https://aur.archlinux.org/yay.git ; sudo chown -R arch:arch yay ; cd yay ; makepkg -si --noconfirm
 yay -aS --noconfirm --answerdiff=None polybar
 cd /opt ; sudo git clone --depth=1 https://github.com/adi1090x/polybar-themes.git ; sudo chown arch:arch -R polybar-themes ; cd /opt/polybar-themes ; echo 2 | ./setup.sh
