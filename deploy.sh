@@ -6,7 +6,7 @@ yay -aS --noconfirm --answerdiff=None polybar
 cd /opt ; sudo git clone --depth=1 https://github.com/adi1090x/polybar-themes.git ; sudo chown arch:arch -R polybar-themes ; cd /opt/polybar-themes ; echo 2 | ./setup.sh
 sudo systemctl enable lightdm
 yay -aS --noconfirm --answerdiff=None betterlockscreen
-yay -aS --noconfirm --answerdiff=None alacritty
+yay -aS --noconfirm --answerdiff=None alacritty-git
 sudo pacman -S alsa-utils speaker-test -c2 alsamixer
 sudo rm -r /etc/X11
 sudo ln -s $HOME/.config/X11 /etc/X11
