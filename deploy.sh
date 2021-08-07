@@ -7,6 +7,9 @@ cd /opt ; sudo git clone --depth=1 https://github.com/adi1090x/polybar-themes.gi
 sudo systemctl enable lightdm
 yay -aS --noconfirm --answerdiff=None betterlockscreen
 yay -aS --noconfirm --answerdiff=None alacritty-git
+yay -aS --noconfirm --answerdiff=None alacritty-themes
+alacritty-themes --create
+alacritty-themes Atelierlakeside.dark
 sudo pacman -S alsa-utils speaker-test -c2 alsamixer
 sudo rm -r /etc/X11
 sudo ln -s $HOME/.config/X11 /etc/X11
