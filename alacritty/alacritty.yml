@@ -154,29 +154,34 @@ font:
 #draw_bold_text_with_bright_colors: false
 # Colors (Tomorrow Night Bright)
 colors:
-  name: Atelierlakeside (dark)
-  author: Chris Kempson
-  primary:
-    background: "#161b1d"
-    foreground: "#7ea2b4"
   cursor:
-    text: "#161b1d"
-    cursor: "#7ea2b4"
+    text: '#fefff2'
+    cursor: '#f0cc09'
+
+  selection:
+    text: '#b5b5b5'
+    background: '#18354f'
+
+  primary:
+    background: '#132738'
+    foreground: '#ffffff'
+
   normal:
-    black: "#161b1d"
-    red: "#d22d72"
-    green: "#568c3b"
-    yellow: "#8a8a0f"
-    blue: "#257fad"
-    magenta: "#5d5db1"
-    cyan: "#2d8f6f"
-    white: "#7ea2b4"
+    black: '#000000'
+    red: '#ff0000'
+    green: '#38de21'
+    yellow: '#ffe50a'
+    blue: '#1460d2'
+    magenta: '#ff005d'
+    cyan: '#00bbbb'
+    white: '#bbbbbb'
+
   bright:
-    black: "#5a7b8c"
-    red: "#d22d72"
-    green: "#568c3b"
-    yellow: "#8a8a0f"
-    blue: "#257fad"
-    magenta: "#5d5db1"
-    cyan: "#2d8f6f"
-    white: "#ebf8ff"
+    black: '#555555'
+    red: '#f40e17'
+    green: '#3bd01d'
+    yellow: '#edc809'
+    blue: '#5555ff'
+    magenta: '#ff55ff'
+    cyan: '#6ae3fa'
+    white: '#ffffff'
