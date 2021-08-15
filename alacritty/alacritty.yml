@@ -154,36 +154,29 @@ font:
 #draw_bold_text_with_bright_colors: false
 # Colors (Tomorrow Night Bright)
 colors:
-  cursor:
-    text: '#fefff2'
-    cursor: '#f0cc09'
-
-  selection:
-    text: '#b5b5b5'
-    background: '#18354f'
-
+  name: jmbi
+  author: jmbi
   primary:
-    background: '#132738'
-    foreground: '#ffffff'
-
+    background: "#1e1e1e"
+    foreground: "#ffffff"
+  cursor:
+    text: "#1e1e1e"
+    cursor: "#ffffff"
   normal:
-    black: '#000000'
-    red: '#ff0000'
-    green: '#38de21'
-    yellow: '#ffe50a'
-    blue: '#1460d2'
-    magenta: '#ff005d'
-    cyan: '#00bbbb'
-    white: '#bbbbbb'
-
+    black: "#5A7260"
+    red: "#8F423C"
+    green: "#BBBB88"
+    yellow: "#F9D25B"
+    blue: "#E0BA69"
+    magenta: "#709289"
+    cyan: "#D13516"
+    white: "#EFE2E0"
   bright:
-    black: '#555555'
-    red: '#f40e17'
-    green: '#3bd01d'
-    yellow: '#edc809'
-    blue: '#5555ff'
-    magenta: '#ff55ff'
-    cyan: '#6ae3fa'
-    white: '#ffffff'
-
-background_opacity: 0.9
+    black: "#8DA691"
+    red: "#EEAA88"
+    green: "#CCC68D"
+    yellow: "#EEDD99"
+    blue: "#C9B957"
+    magenta: "#FFCBAB"
+    cyan: "#C25431"
+    white: "#F9F1ED"
